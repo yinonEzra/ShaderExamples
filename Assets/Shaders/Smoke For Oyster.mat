@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_SmokeFX 2
+  m_Name: Smoke For Oyster
   m_Shader: {fileID: -6465566751694194690, guid: da5f1a2ef710d4db88492f2539d070ca, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -47,25 +47,27 @@ Material:
     - _DistanceFromLocation: 3.33
     - _DstBlend: 1
     - _Float: 0.13
-    - _Mask: 0.282
-    - _NoiseScale: 4
+    - _Mask: 0.287
+    - _MaskWide: -0.66
+    - _NoiseScale: 5
     - _OffsetUV: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rotate: 180
-    - _Seed: 2.93
-    - _Speed: 0.15
+    - _Rotate: 160
+    - _Seed: 2
+    - _Speed: 0.1
     - _SrcBlend: 5
-    - _StepEdge: -0.04
+    - _StepEdge: 0.05
     - _Surface: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
     - _BaseLocation: {r: 0, g: 0, b: 0, a: 0}
+    - _BasePos: {r: -0.2, g: -0.2, b: -0.2, a: 0}
     - _Color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
-    - _ColorA: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
-    - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorA: {r: 0.61196154, g: 0.64844704, b: 0.6792453, a: 1}
+    - _ColorB: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1167742577309614794

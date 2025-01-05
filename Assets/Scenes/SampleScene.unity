@@ -124,6 +124,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2323344564097128816, guid: 9521a8dcf62b14f1685ff47e4da6a303, type: 3}
   m_PrefabInstance: {fileID: 2211276921877594195}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &373260229
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_SmokeFX 1 (Instance)
+  m_Shader: {fileID: -6465566751694194690, guid: da5f1a2ef710d4db88492f2539d070ca, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 2
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DistanceFromLocation: 4.96
+    - _DstBlend: 1
+    - _Float: 0.13
+    - _Mask: 0.54999775
+    - _NoiseScale: 4
+    - _OffsetUV: 0.05
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rotate: 180
+    - _Seed: 2
+    - _Speed: 0.8
+    - _SrcBlend: 5
+    - _StepEdge: -0.33
+    - _Surface: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BaseLocation: {r: 0, g: 0, b: 0, a: 0}
+    - _BasePos: {r: -0.03, g: -0.71, b: -0.2, a: 0}
+    - _Color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    - _ColorA: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +314,75 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!21 &542392750
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_SmokeFX 1 (Instance)
+  m_Shader: {fileID: -6465566751694194690, guid: da5f1a2ef710d4db88492f2539d070ca, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 2
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DistanceFromLocation: 4.96
+    - _DstBlend: 1
+    - _Float: 0.13
+    - _Mask: 0.559
+    - _NoiseScale: 4
+    - _OffsetUV: 0.05
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rotate: 180
+    - _Seed: 1
+    - _Speed: 0.8
+    - _SrcBlend: 5
+    - _StepEdge: -0.33
+    - _Surface: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BaseLocation: {r: 0, g: 0, b: 0, a: 0}
+    - _BasePos: {r: -0.03, g: -0.71, b: -0.2, a: 0}
+    - _Color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    - _ColorA: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!4 &567463351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2466822259188269002, guid: 9521a8dcf62b14f1685ff47e4da6a303, type: 3}
@@ -420,23 +558,144 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 96327baae044746aca12683828c4854d, type: 2}
---- !u!1 &1990183073 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8644218169559242184, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
-  m_PrefabInstance: {fileID: 7687616486818908666}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1990183075
-MonoBehaviour:
+--- !u!21 &1350975938
+Material:
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990183073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b82bca0f63ba4453aaf0bae8948ee70d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name: Shader Graphs_SmokeFX 1 (Instance)
+  m_Shader: {fileID: -6465566751694194690, guid: da5f1a2ef710d4db88492f2539d070ca, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 2
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DistanceFromLocation: 4.96
+    - _DstBlend: 1
+    - _Float: 0.13
+    - _Mask: 0.54999775
+    - _NoiseScale: 4
+    - _OffsetUV: 0.05
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rotate: 180
+    - _Seed: 3
+    - _Speed: 0.8
+    - _SrcBlend: 5
+    - _StepEdge: -0.33
+    - _Surface: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BaseLocation: {r: 0, g: 0, b: 0, a: 0}
+    - _BasePos: {r: -0.03, g: -0.71, b: -0.2, a: 0}
+    - _Color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    - _ColorA: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &1524960452
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_SmokeFX 1 (Instance)
+  m_Shader: {fileID: -6465566751694194690, guid: da5f1a2ef710d4db88492f2539d070ca, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 2
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DistanceFromLocation: 4.96
+    - _DstBlend: 1
+    - _Float: 0.13
+    - _Mask: 0.54999775
+    - _NoiseScale: 4
+    - _OffsetUV: 0.05
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rotate: 180
+    - _Seed: 0
+    - _Speed: 0.8
+    - _SrcBlend: 5
+    - _StepEdge: -0.33
+    - _Surface: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BaseLocation: {r: 0, g: 0, b: 0, a: 0}
+    - _BasePos: {r: -0.03, g: -0.71, b: -0.2, a: 0}
+    - _Color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    - _ColorA: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!4 &543450652882438501
 Transform:
   m_ObjectHideFlags: 0
@@ -683,6 +942,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1895356335058680962, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683926390482363217, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1524960452}
+    - target: {fileID: 4492777710201309777, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 542392750}
+    - target: {fileID: 5475063473430837096, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5679969737663824170, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 373260229}
+    - target: {fileID: 5790397603787637125, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1350975938}
     - target: {fileID: 6343203912039615610, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.9367745
@@ -728,12 +1011,10 @@ PrefabInstance:
       value: SmokeFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4860489905845084551, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8644218169559242184, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1990183075}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f2c72918fcb64e6a8b57b4e681cda23, type: 3}
 --- !u!1001 &8607211495943216262
 PrefabInstance:
