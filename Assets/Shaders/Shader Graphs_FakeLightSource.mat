@@ -44,6 +44,7 @@ Material:
     - _Step: 0
     m_Colors:
     - _Color: {r: 0.8113208, g: 0.31763974, b: 0.31763974, a: 1}
+    - _LightDir: {r: 0.9901412, g: 0.22976808, b: -0.5889098, a: 0}
     - _LightDirection: {r: -1.5751286, g: 0.17105454, b: -1.0263282, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

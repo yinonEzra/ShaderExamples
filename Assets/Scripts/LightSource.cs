@@ -5,7 +5,7 @@ public class LightSource : MonoBehaviour
 {
     [SerializeField] Renderer[] effectedObject;
     private Vector3 lightNormal;
-    [SerializeField] private float magnitude;
+    private float magnitude;
     [SerializeField] private float lightIntensity;
     
     private void Update()
@@ -15,11 +15,23 @@ public class LightSource : MonoBehaviour
     [ContextMenu("Create Light")]
     private void Light()
     {
-        lightNormal = (transform.position - effectedObject[0].transform.position);
-        magnitude = lightNormal.magnitude;
-        for (int i = 0; i < effectedObject.Length; i++)
+        if (Application.isPlaying)
+        {            
+            for (int i = 0; i < effectedObject.Length; i++)
+            {
+                lightNormal = (transform.position - effectedObject[i].transform.position);
+                magnitude = lightNormal.magnitude;
+                effectedObject[i].material.SetVector("_LightDir", lightNormal.normalized * lightIntensity/magnitude);
+            }
+        }
+        else
         {
-            effectedObject[i].sharedMaterial.SetVector("_LightDirection", lightNormal.normalized * lightIntensity/magnitude);
+            for (int i = 0; i < effectedObject.Length; i++)
+            {
+                lightNormal = (transform.position - effectedObject[i].transform.position);
+                magnitude = lightNormal.magnitude;
+                effectedObject[i].sharedMaterial.SetVector("_LightDir", lightNormal.normalized * lightIntensity/magnitude);
+            }
         }
     }
 }
