@@ -7,13 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Smoke For Oyster
-  m_Shader: {fileID: -6465566751694194690, guid: da5f1a2ef710d4db88492f2539d070ca, type: 3}
+  m_Name: Shader Graphs_FakeLightSource
+  m_Shader: {fileID: -6465566751694194690, guid: 24a60e240d8434cf289c4272b8deeb74, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,7 +20,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: :m_EnableInstancingVariants
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -39,39 +38,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 2
-    - _CastShadows: 1
-    - _Cull: 2
-    - _DistanceFromLocation: 3.33
-    - _DstBlend: 1
-    - _Float: 0.13
-    - _Mask: 0.145
-    - _MaskWide: -0.66
-    - _NoiseScale: 5
-    - _OffsetUV: 0.01
+    - _AmbientLight: 0.176
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rotate: 160
-    - _Seed: 2
-    - _Speed: 0.05
-    - _SrcBlend: 5
-    - _StepEdge: 0.21
-    - _Surface: 1
-    - _Wrap: 0.75
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
+    - _Step: 0
     m_Colors:
-    - _BaseLocation: {r: 0, g: 0, b: 0, a: 0}
-    - _BasePos: {r: -0.2, g: -0.2, b: -0.2, a: 0}
-    - _Color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
-    - _ColorA: {r: 0.61196154, g: 0.64844704, b: 0.6792453, a: 1}
-    - _ColorB: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+    - _Color: {r: 0.8113208, g: 0.31763974, b: 0.31763974, a: 1}
+    - _LightDirection: {r: -1.5751286, g: 0.17105454, b: -1.0263282, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1167742577309614794
+--- !u!114 &6995488723446572146
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
