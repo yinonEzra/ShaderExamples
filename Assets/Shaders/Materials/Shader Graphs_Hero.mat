@@ -46,7 +46,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Mask: 0
-    - _Scale: 6.9
+    - _Scale: 10
     - _Wrap: 0
     m_Colors:
     - _Color: {r: 0, g: 0.6924772, b: 2, a: 1}
