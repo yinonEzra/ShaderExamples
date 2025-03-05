@@ -47,7 +47,7 @@ Material:
     - _DistanceFromLocation: 4.96
     - _DstBlend: 1
     - _Float: 0.13
-    - _Mask: 0.295
+    - _Mask: 0.317
     - _MaskWide: 0.1
     - _NoiseScale: 5
     - _OffsetUV: -0.001

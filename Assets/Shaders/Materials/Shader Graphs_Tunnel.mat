@@ -51,15 +51,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlowOutRadius: 1
-    - _BlowOutStrength: 1.33
-    - _Location: -5
+    - _BlowOutRadius: 0.7
+    - _BlowOutStrength: 1.13
+    - _Location: 5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SimulateSpeed: 0
-    - _Speed: 0.75
+    - _Speed: 0.1
     - _Spiral: 0
-    - _Wrap: 0
+    - _Wrap: 0.631
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

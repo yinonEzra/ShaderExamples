@@ -51,11 +51,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Power: 0.4
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _speed: 0.03
+    - _speed: 0.01
     m_Colors:
-    - _Color: {r: 0, g: 3.3060243, b: 14.259476, a: 1}
+    - _Color: {r: 0, g: 0.48167607, b: 1.9999999, a: 1}
     - _ColorA: {r: 0.008779288, g: 0.015280266, b: 0.022424206, a: 1}
     - _ColorB: {r: 0.4716981, g: 0.27367386, b: 0.27367386, a: 0}
     - _ColorC: {r: 0, g: 0, b: 0, a: 0}

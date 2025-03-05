@@ -5442,7 +5442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 847018659746425801, guid: 9521a8dcf62b14f1685ff47e4da6a303, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2466822259188269002, guid: 9521a8dcf62b14f1685ff47e4da6a303, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5537,13 +5537,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3955955408900528331, guid: 9659b3aa8233447c0af89fa2e590b463, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6941184802803954905, guid: 9659b3aa8233447c0af89fa2e590b463, type: 3}
       propertyPath: m_Name
       value: StencilMask
       objectReference: {fileID: 0}
     - target: {fileID: 6941184802803954905, guid: 9659b3aa8233447c0af89fa2e590b463, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
