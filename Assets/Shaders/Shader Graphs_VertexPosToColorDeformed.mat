@@ -44,7 +44,7 @@ Material:
     m_Floats:
     - _DistanceOrHeight: 0
     - _FromCamera: 1
-    - _HeightOrDepth: 0
+    - _HeightOrDepth: 1
     - _HeightOrDepth2: 0
     - _Normal: 0
     - _QueueControl: 0

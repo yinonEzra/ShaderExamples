@@ -63,13 +63,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _HeightOrTexture: 0.171
+    - _HeightOrTexture: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ShowHeightValue: 0
     - _Speed: 0
-    - _Strength: 1.42
-    - _moveTexture: 0.503
+    - _Strength: 2.04
+    - _moveTexture: 0
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
