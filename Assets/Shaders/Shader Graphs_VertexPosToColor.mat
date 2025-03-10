@@ -44,13 +44,16 @@ Material:
     m_Floats:
     - _DistanceOrHeight: 0
     - _FromCamera: 1
-    - _HeightOrDepth: 1
+    - _HeightOrDepth: 0
     - _HeightOrDepth2: 0
     - _Normal: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _TexturePower: 0
     - _isDeformed: 0
-    m_Colors: []
+    m_Colors:
+    - _ColorA: {r: 0, g: 0.08627451, b: 0.35686275, a: 1}
+    - _ColorB: {r: 0, g: 1, b: 0.8509804, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &4000150245657820388

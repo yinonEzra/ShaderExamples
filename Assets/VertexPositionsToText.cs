@@ -14,6 +14,7 @@ public class VertexPositionsToText : MonoBehaviour
     Camera camera;
     private Vector3 vertexPos;
     private Vector3 dirToCamera;
+    [SerializeField]private bool worldPos = false;
     
     private void Awake()
     {
@@ -39,6 +40,10 @@ public class VertexPositionsToText : MonoBehaviour
             vertexPos = vertexTransforms[i].localPosition;
             vertices[i] = vertexPos;
             verticesStrings[i] = SetAxis(vertexPos).ToString("N1");
+            if (worldPos)
+            {
+                verticesStrings[i] = vertexTransforms[i].position.ToString("N1");
+            }
             vertexTexts[i].text = verticesStrings[i];
             vertexTransforms[i].localPosition += vertexTransforms[i].localPosition.normalized;
             Vector3 posToText = WorldToCanvasPosition(canvas, camera, vertexTransforms[i].position);
